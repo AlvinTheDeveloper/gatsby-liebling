@@ -1,3 +1,5 @@
+// Reference: src/sass/common/_mixins.scss
+
 const breakSmall: string = "35.5rem"; // >= 568px @ 16px
 const breakMedium: string = "48rem"; // >= 768px @ 16px
 const breakLarge: string = "64rem"; // >= 1024px @ 16px
