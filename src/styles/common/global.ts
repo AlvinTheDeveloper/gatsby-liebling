@@ -1,5 +1,5 @@
-// Reference: src/sass/common/_global.scss
-export function global(): object {
+// Reference: https://github.com/eddiesigner/liebling/blob/master/src/sass/common/_global.scss
+export function getGlobalStyles(): object {
     return {
         body:{
             display: "flex",
@@ -21,7 +21,7 @@ export function global(): object {
                 }
             }
         },
-        ".main-wrap":{
+        mainWrap:{
             display: "flex",
             flexDirection:"column",
             flexGrow:1
@@ -40,13 +40,13 @@ export function global(): object {
             border:0,
             position:"relative"
         },
-        ".tippy-popper *":{
+        "tippyPopper *":{
             textAlign: "left !important"
         },
-        ".medium-zoom-overlay":{
+        mediumZoomOverlay:{
             backgroundColor: "var(--background-color) !important"
         },
-        ".medium-zoom-overlay,.medium-zoom-image":{
+        "mediumZoomOverlay,mediumZoomImage":{
             zIndex:5
         }
     }

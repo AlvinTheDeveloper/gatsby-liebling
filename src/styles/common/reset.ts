@@ -1,4 +1,4 @@
-// Reference: src/sass/common/_reset.scss
+// Reference: https://github.com/eddiesigner/liebling/blob/master/src/sass/common/_reset.scss
 export function reset(): object {
     return {
         /**

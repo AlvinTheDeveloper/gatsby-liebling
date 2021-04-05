@@ -1,4 +1,4 @@
-// Reference: src/sass/common/_mixins.scss
+// Reference: https://github.com/eddiesigner/liebling/blob/master/src/sass/common/_mixins.scss
 
 const breakSmall: string = "35.5rem"; // >= 568px @ 16px
 const breakMedium: string = "48rem"; // >= 768px @ 16px
